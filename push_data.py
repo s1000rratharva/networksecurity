@@ -12,8 +12,8 @@ ca=certifi.where()
 import pandas as pd
 import numpy as np
 import pymongo
-from networkseurity.exception.exception import NetworkSecurityException
-from networkseurity.logging.logger import logging
+from networksecurity.exception.exception import NetworkSecurityException
+from networksecurity.logging.logger import logging
 
 class NetworkDataExtract():
     def __init__(self):
